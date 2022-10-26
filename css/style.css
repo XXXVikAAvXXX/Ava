@@ -41,3 +41,39 @@
 .purchase-template-btn .btn {
     padding: 14px 40px;
 }
+
+.about-title {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.about-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.rating-name {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.btn-get-start {
+    background: #FFA332;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 14px 40px;
+    text-decoration: none;
+}
