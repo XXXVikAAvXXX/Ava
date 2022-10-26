@@ -126,7 +126,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
 }
 
 .main-nav {
@@ -150,6 +149,7 @@
     margin-left: 120px;
     margin-top: 52px;
     display: flex;
+    justify-content: space-between;
 }
 
 .Rating {
