@@ -1,0 +1,43 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    padding: 0 120px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item a {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background: #0057FF;
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.purchase-template-btn .btn {
+    padding: 14px 40px;
+}
