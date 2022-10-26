@@ -145,3 +145,23 @@
 .nav-item {
     margin-left: 20px;
 }
+
+.promo {
+    margin-left: 120px;
+    margin-top: 52px;
+    display: flex;
+}
+
+.Rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating-photo {
+    margin-right: 20px;
+}
+
+.btn-get-start {
+    display: inline-block;
+    margin-top: 40px;
+}
