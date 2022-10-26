@@ -118,3 +118,30 @@
     text-transform: uppercase;
     color: #000000;
 }
+
+/*-------------- FlexBox --------------*/
+
+.main-header {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-logo {
+    margin-right: 50px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
