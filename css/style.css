@@ -231,6 +231,38 @@ input {
     margin-top: 42px;
     margin-left: 40px;
 }
+
+.world-over-title {
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.world-over-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.questions-list {
+    margin-top: 58px;
+    list-style: none;
+    width: 500px;
+    min-height: 356px;
+    border: 1px solid #E7E7E7;
+    border-radius: 20px;
+}
+
+.world-over-text {
+    margin-top: 48px;
+}
+
+.questions-item {
+    padding: 30px;
+}
+
 /*-------------- FlexBox --------------*/
 
 .main-header {
@@ -293,3 +325,18 @@ input {
     display: flex;
 }
 
+.world-over {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opportunities-block {
+    display: flex;
+}
