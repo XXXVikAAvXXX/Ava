@@ -36,6 +36,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .purchase-template-btn .btn {
@@ -119,6 +120,117 @@
     color: #000000;
 }
 
+.marketing_title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 48px;
+}
+
+.marketing_descr {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 37px;
+}
+
+.marketing-item {
+    margin-right: 90px;
+}
+
+.marketing-item:last-child {
+    margin-right: 0;
+}
+
+.marketing-item_icon {
+    margin-bottom: 28px;
+}
+
+.marketing-item_title {
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 14px 40px;
+    margin-top: 24px;
+}
+
+.marketing-form-block {
+    width: 540px;
+    min-height: 865px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px rgba(83, 83, 83, 0.15);
+    border-radius: 15px;
+}
+
+.form-title {
+    font-weight: 400;
+    font-size: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 26px;
+    margin-top: 57px;
+}
+
+.form-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+input {
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    border-radius: 6px;
+    padding: 13px 26px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.input-name {
+    margin-left: 40px;
+    width: 218px;
+}
+
+.input-email {
+    margin-left: 20px;
+    width: 218px;
+}
+
+.input-subgect {
+    margin-top: 32px;
+    width: 460px;
+    margin-left: 40px;
+}
+
+.input-subgect-2 {
+    margin-top: 32px;
+    width: 460px;
+    margin-left: 40px;
+    padding: 13px 314px 80px 26px;
+}
+
+.marketing-form-btn {
+    display: block;
+    width: 450px;
+    width: 460px;
+    height: 52px;
+    margin-top: 42px;
+    margin-left: 40px;
+}
 /*-------------- FlexBox --------------*/
 
 .main-header {
@@ -169,3 +281,15 @@
 .ET {
     margin-top: 10px;
 }
+
+.marketing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.marketing-item-wrapper {
+    display: flex;
+}
+
