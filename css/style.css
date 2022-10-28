@@ -16,6 +16,10 @@
     list-style: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .nav-item a {
     font-weight: 400;
     font-size: 14px;
@@ -472,6 +476,40 @@ input {
     margin-top: 100px;
 }
 
+.main-footer {
+    min-height: 254px;
+    background: #000000;
+    margin-top: 100px;
+}
+
+.footer-links-item {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.copyright-link {
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.social-link {
+    margin-left: 5px;
+}
+
 /*-------------- FlexBox --------------*/
 
 .main-header {
@@ -574,4 +612,28 @@ input {
 .our-blog_content {
     display: flex;
     align-items: center;
+}
+
+
+.footer-top {
+    padding-top: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.footer-links-list {
+    display: flex;
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-list {
+    display: flex;
 }
