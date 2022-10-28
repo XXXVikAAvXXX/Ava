@@ -392,6 +392,12 @@ input {
     margin-top: 37px;
 }
 
+.divider {
+    background: #E7E7E7;
+    width: 100%;
+    height: 1px;
+}
+
 /*-------------- FlexBox --------------*/
 
 .main-header {
@@ -477,5 +483,12 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.firms-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 169px;
 }
 
