@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .container {
@@ -37,6 +38,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .purchase-template-btn .btn {
@@ -263,6 +265,100 @@ input {
     padding: 30px;
 }
 
+.opportunities-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.opportunities-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 36px;
+}
+
+.graphics-item {
+    margin-bottom: 30px;
+}
+
+.graphic-line-1 {
+    background: #EBEBEB;
+    border-radius: 100px;
+    width: 540px;
+    height: 4px;
+    border-left: 460px solid #0057FF;
+}
+
+.graphic-line-2 {
+    background: #EBEBEB;
+    border-radius: 100px;
+    width: 540px;
+    height: 4px;
+    border-left: 351px solid #B861FF;
+}
+
+.graphic-line-3 {
+    background: #EBEBEB;
+    border-radius: 100px;
+    width: 540px;
+    height: 4px;
+    border-left: 390px solid #FF8E32;
+}
+
+.graphic-info {
+    margin-bottom: 10px;
+}
+
+.opportunities_prof-ticket {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(83, 83, 83, 0.15);
+    border-radius: 10px;
+    width: 540px;
+    height: 710px;
+}
+
+.cost-month {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cost {
+    display: block;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.pt-services-list {
+    margin-left: 109px;
+    margin-top: 22px;
+}
+
+.pt-services-item {
+    padding: 8px 0;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.prof-ticket_btn {
+    display: block;
+    padding: 14px 40px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
 /*-------------- FlexBox --------------*/
 
 .main-header {
@@ -339,4 +435,14 @@ input {
 
 .opportunities-block {
     display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.graphic-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
