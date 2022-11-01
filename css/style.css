@@ -510,6 +510,73 @@ input {
     margin-left: 5px;
 }
 
+.promo {
+    position: relative;
+}
+
+.decoration_triangle {
+    display: block;
+    position: absolute;
+}
+
+.promo--big-gray {
+    right: -100px;
+    bottom: 70px;
+}
+
+.promo--small-gray {
+    right: 565px;
+    top: 260px;
+}
+
+.world-over--small-gray {
+    top: -65px;
+    left: 43%;
+}
+
+.world-over--medium-gray {
+    left: -120px;
+    top: 50%;
+}
+
+.world-over--big-orange {
+    right: -10px;
+    bottom: -120px;
+}
+
+.marketing {
+    position: relative;
+}
+
+.marketing--small-gray {
+    top: 120px;
+    left: 50%;
+}
+
+.world-over {
+    position: relative;
+}
+
+.world-over--gray {
+    left: -54px;
+    bottom: -59px;
+}
+
+.our-blog {
+    position: relative;
+}
+
+.our-blog--green {
+    left: -40px;
+    top: 50px;
+}
+
+.our-blog--orange {
+    top: 350px;
+    z-index: 1;
+    right: -320px;
+}
+
 /*-------------- FlexBox --------------*/
 
 .main-header {
@@ -559,6 +626,7 @@ input {
 
 .ET {
     margin-top: 10px;
+    position: relative;
 }
 
 .marketing {
