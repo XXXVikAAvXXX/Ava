@@ -577,6 +577,101 @@ input {
     right: -320px;
 }
 
+.employees {
+    margin-top: 200px;
+    min-height: 442px;
+    position: relative;
+}
+
+.employees__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.employees_author--name {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.employees_author--position {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.employees__item {
+    width: 380px;
+    height: 346px;
+    padding: 41px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.employees__item--ml10 {
+    margin-left: 10px;
+}
+
+.employees_photo {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn_control--next {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 11px 24px rgba(0, 0, 0, 0.09);
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.employees__list-control {
+    right: -20px;
+    top: 200px;
+}
+
+.switches {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -400px;
+}
+
+.switch__item {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.switch__item:last-child {
+    margin-right: 0;
+}
+
+.switch__item--prev {
+    background: #222222;
+}
+
+.switch__item--next {
+    background: rgba(34, 34, 34, 0.4);
+}
+
 /*-------------- FlexBox --------------*/
 
 .main-header {
@@ -704,4 +799,15 @@ input {
 
 .social-list {
     display: flex;
+}
+
+.employees__list {
+    display: flex;
+    position: absolute;
+    z-index: 0;
+}
+
+.employees__rating {
+    display: flex;
+    justify-content: center;
 }
